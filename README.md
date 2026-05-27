@@ -1,5 +1,7 @@
 # Cloud Deploy Automation
 
+![CI/CD](https://github.com/Matheus5339/cloud-deploy-automation/actions/workflows/deploy.yml/badge.svg)
+
 Projeto DevOps com CI/CD, Docker e automação de deploy multi-ambiente.
 
 ## 🚀 Tecnologias
