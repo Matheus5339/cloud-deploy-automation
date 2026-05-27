@@ -14,6 +14,7 @@ FastAPI
 Docker  
 GitHub Actions  
 Bash Script  
+Railway (Deploy)
 
 ---
 
@@ -24,6 +25,7 @@ Container Docker
 CI/CD com GitHub Actions  
 Deploy automatizado por ambiente (staging e production)  
 Automação de build com script Bash  
+Deploy real em cloud (Railway)
 
 ---
 
@@ -37,7 +39,7 @@ Retorna status da aplicação
 Health Check  
 GET /health
 
-Retorna status da aplicação e uptime
+Retorna status da aplicação e uptime + ambiente
 
 ---
 
@@ -85,7 +87,7 @@ CI/CD
 
 O projeto utiliza GitHub Actions para:
 
-- Execução automática de testes básicos
+- Execução automática de validação
 - Build da imagem Docker
 - Deploy por ambiente (staging e production)
 - Automação de pipeline a cada push
@@ -108,7 +110,26 @@ Deploy production (main)
 
 Deploy
 
-Deploy automatizado via GitHub Actions (simulado com Docker containers por ambiente).
+Deploy realizado no Railway com CI/CD automatizado.
+
+🔗 URL do projeto:
+https://cloud-deploy-automation.railway.app
+
+Health Check Online:
+https://cloud-deploy-automation.railway.app/health
+
+Swagger Online:
+https://cloud-deploy-automation.railway.app/docs
+
+---
+
+O que este projeto demonstra
+
+- CI/CD real com GitHub Actions
+- Containerização com Docker
+- Automação de deploy
+- Integração com cloud (Railway)
+- Estrutura de projeto DevOps profissional
 
 ---
 
